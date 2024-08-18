@@ -1,0 +1,14 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  direction: MyString
+  latitude: 52
+  longitude: 152
+  altitude: null
+two:
+  name: MyString2
+  direction: MyString2
+  latitude: 12
+  longitude: 52
+  altitude: 125

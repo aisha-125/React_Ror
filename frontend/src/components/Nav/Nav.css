@@ -1,0 +1,35 @@
+nav {
+  margin-top: 2px;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background-color: #EAF6FF;
+}
+
+nav>ul>li {
+  list-style: none;
+  cursor: pointer;
+  display: block;
+}
+
+.nav-icon{
+  max-width: 30px;
+  max-height: 30px;
+}
+
+ul>li>.link {
+  text-decoration: none;
+  display: inline-block;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link>p {
+  color: #232528;
+}
+
+.link:hover {
+  background-color: #dbebf7;
+}

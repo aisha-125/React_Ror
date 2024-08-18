@@ -1,0 +1,111 @@
+.popup-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile {
+  display: block;
+  width: 100%;
+}
+
+.form-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-profile {
+  width: 80px;
+  height: 100px;
+  background-color: #232528;
+  position: relative;
+  align-self: center;
+  border-radius: 40px;
+}
+
+.img-profile>img {
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  border-radius: 40px;
+}
+
+.img-label {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #EAF6FF;
+  padding: 0px;
+  border-radius: 15px;
+  bottom: 0px;
+  box-shadow: -1px -1px 4px #232528;
+  cursor: pointer;
+}
+
+.img-btn {
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.icon-profile {
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  font-size: 20px;
+  color: #232528;
+}
+
+.settings-container {
+  position: relative;
+  max-width: 715px;
+  border: 2px solid #2325287c;
+  margin: 25px 15px;
+  text-align: center;
+  padding: 30px 10px;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 715px){
+  .settings-container {
+    width: 715px;
+    margin: 35px auto;
+  }
+}
+
+.settings-header {
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: 46%;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.data-change {
+  color: #232528;
+  cursor: pointer;
+}
+
+.data-change.dark {
+  color: #EAF6FF;
+}
+
+body.dark {
+  background-color: #232528;
+}
+
+.fields{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#light_mode{
+  margin-left: 10px;
+}

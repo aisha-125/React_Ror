@@ -1,0 +1,16 @@
+
+# # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# one:
+#   admin: false
+#   name: MyString
+#   surname: MyString
+#   dni: MyString
+#   profession: MyString
+
+# two:
+#   admin: false
+#   name: MyString
+#   surname: MyString
+#   dni: MyString
+#   profession: MyString

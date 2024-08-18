@@ -1,0 +1,75 @@
+.popup {
+  max-width: 300px;
+  padding: 20px 10px;
+  height: auto;
+  background-color: #232528;
+  border-radius: 5px;
+}
+
+.popup>.danger{
+  color: #E55454;
+}
+.popup>.question{
+  color: #FFA400;
+}
+
+.popup>.title-popup {
+  font-size: 18px;
+  color: #EAF6FF;
+  margin: 10px;
+}
+
+.input-container>input{
+  width: 95%;
+  border: none;
+  font-size: 16px;
+  padding: 3px 0px 1px 6px;
+  background-color: #EAF6FF;
+  border-bottom: 2px solid #E55454;
+}
+.input-container{
+  width: 85%;
+  background-color: #EAF6FF;
+  padding: 4px 2px;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+
+.input-container>input:focus {
+  outline: none;
+}
+
+.input-container:focus-within{
+  transform: scale(1.05);
+}
+
+.btns {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns>.btn {
+  outline: none;
+  align-self: center;
+  border: none;
+  padding: 4px 5px;
+  font-size: 17px;
+  border-radius: 3px;
+  color: #EAF6FF;
+  width: 80px;
+  cursor: pointer;
+}
+
+.btn-accept {
+  background-color: #199CFF;
+}
+.btn-accept:hover {
+  background-color: #005799;
+}
+.btn-cancel {
+  background-color: #E55454;
+}
+.btn-cancel:hover {
+  background-color: #b30303;
+}

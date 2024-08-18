@@ -1,0 +1,41 @@
+2024-01-12T15:37:55.248Z - error: Error when processing OData POST: /odata/assets Error: Entity name can not be empty
+    at module.exports (/home/ruby/workspace/React_RoR/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at module.exports (/home/ruby/workspace/React_RoR/jsreportapp/node_modules/@jsreport/jsreport-core/lib/main/validateEntityName.js:26:11)
+    at Object.insert (/home/ruby/workspace/React_RoR/jsreportapp/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:123:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-12T16:01:00.363Z - error: Report render failed
+(because) write EPROTO 00274E0CFF7E0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+Error: write EPROTO 00274E0CFF7E0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16) rootId=t5kx2ky27yf7w0s, id=t5kx2ky27yf7w0s
+2024-01-12T16:01:01.382Z - error: Report render failed
+(because) write EPROTO 00A73BE5FE7E0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+Error: write EPROTO 00A73BE5FE7E0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16) rootId=t44g86pusuf6san, id=t44g86pusuf6san
+2024-01-12T16:01:13.320Z - error: Report render failed
+(because) write EPROTO 00274E0CFF7E0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+Error: write EPROTO 00274E0CFF7E0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16) rootId=rh7fe2pmlsbq847, id=rh7fe2pmlsbq847
+2024-01-12T16:01:14.061Z - error: Report render failed
+(because) write EPROTO 00A73BE5FE7E0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+Error: write EPROTO 00A73BE5FE7E0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16) rootId=gjdhmzi8o7u9s9n, id=gjdhmzi8o7u9s9n
+2024-01-12T23:23:55.180Z - error: Report render failed
+(because) unexpected token '<', "<!DOCTYPE "... is not valid JSON
+SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at IncomingMessage.<anonymous> (sandbox.js:11:49)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1408:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) rootId=kaxmxn96oc52gw8, id=kaxmxn96oc52gw8
+2024-01-12T23:25:15.018Z - error: Report render failed
+(because) connect ECONNREFUSED 127.0.0.1:4000
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) rootId=bpn4v1qym583w2n, id=bpn4v1qym583w2n

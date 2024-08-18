@@ -1,0 +1,17 @@
+footer {
+  /* margin-top: 15px; */
+  width: 100%;
+  height: auto;
+  background-color: #EAF6FF;
+  border-top: 1px solid #232528;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-footer-container {
+  height: 114px;
+}
+
+.logo-footer-container > img {
+  max-height: 100%;
+}

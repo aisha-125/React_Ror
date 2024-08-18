@@ -1,0 +1,18 @@
+# one:
+#   name: MyString
+#   description: MyString
+#   date: 2023-11-24
+#   places: 1
+#   image: null
+#   # created_at: <%= Time.current %>
+#   # updated_at: <%= Time.current %>
+
+# two:
+#   name: MyString2
+#   description: MyString2
+#   places: 1
+#   date: 2023-01-01
+#   image: null
+#   # created_at: <%= Time.current %>
+#   # updated_at: <%= Time.current %>
+  

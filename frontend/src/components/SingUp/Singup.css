@@ -1,0 +1,73 @@
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  margin: 30px auto;
+}
+
+.user-form>input {
+  margin: 10px;
+  border: none;
+  font-size: 16px;
+  padding: 3px 0px 1px 6px;
+  border-bottom: 1px solid #E55454;
+}
+
+.user-form>input:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+
+.btn-submit {
+  height: 34px;
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #FFA400;
+  color: #232528;
+  transition: color 0.3s, font-size 0.3s, background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #E55454;
+  color: #EAF6FF;
+  font-size: 19px;
+}
+
+.user-form>.btn-submit:focus {
+  transform: scale(1.00);
+  background-color: #E55454;
+  color: #EAF6FF;
+  font-size: 19px;
+}
+
+.login-btn {
+  background-color: #FFF;
+  margin: 10px;
+  border: none;
+  font-size: 15px;
+  color: #232528;
+  text-align: center;
+  margin-bottom: 40px;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.login-btn:hover {
+  font-size: 17px;
+  color: #E55454;
+}
+
+.login-btn:focus{
+  font-size: 17px;
+  color: #E55454;
+}
+
+span {
+  color: red;
+}

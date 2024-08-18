@@ -1,0 +1,59 @@
+.activity-form {
+  position: fixed;
+  background-color: #232528;
+  width: 90%;
+  max-width: 400px;
+  left: -450px;
+  z-index: 100;
+  margin: 10px 20px 10px 0px;
+  border-radius: 0 10px 10px 0;
+  transition: left 0.7s ease;
+  padding: 20px 0px;
+  overflow-y: auto;
+  text-align: start;
+  top: 65px;
+}
+@media (max-height: 400px) {
+  .activity-form {
+    max-height: 75vh;
+    top: 0;
+  }
+}
+
+@media (min-height: 400px) and (max-height: 540px) {
+  .activity-form {
+    top: 0;
+    max-height: 75vh;
+  }
+}
+
+.show {
+  left: 0px;
+}
+
+h3 {
+  color: #EAF6FF;
+  text-align: center;
+}
+
+.btns {
+  order: 5;
+}
+
+.activity-form > input, select, label{
+  width: 70%;
+  margin: 6px 25px;
+  border: none;
+  font-size: 16px;
+  padding: 2px 0px 1px 4px;
+  order: 5;
+}
+
+.activity-form>input:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+
+.activity-label {
+  color: #EAF6FF;
+}
